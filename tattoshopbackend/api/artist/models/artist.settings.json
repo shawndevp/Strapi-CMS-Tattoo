@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "artists",
   "info": {
-    "name": "Product",
-    "description": ""
+    "name": "Artist"
   },
   "options": {
     "increments": true,
@@ -16,7 +15,7 @@
       "type": "string"
     },
     "price": {
-      "type": "decimal"
+      "type": "biginteger"
     },
     "description": {
       "type": "string"
