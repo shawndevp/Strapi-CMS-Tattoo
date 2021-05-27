@@ -20,6 +20,15 @@
     },
     "mobile": {
       "type": "biginteger"
+    },
+    "users_permissions_user": {
+      "via": "userbookings",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "artist": {
+      "model": "artist",
+      "via": "bookings"
     }
   }
 }
